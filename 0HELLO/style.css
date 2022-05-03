@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #e4e6a8;
+  color: white;
+}
+canvas {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+p.main{
+  text-align: center;
+  font-size: 25px;
+}
+
+p.left {
+  text-align: left;
+  font-size: 20px;
+}
+
+p.right {
+  text-align: center;
+  font-size: 17px;
+}
+
