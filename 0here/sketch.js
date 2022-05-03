@@ -38,6 +38,7 @@ var createScene = function () {
     var room = placeObject('../models/', 'Room.obj',
         new BABYLON.Vector3(0, 0, 0), scene, 7);
 
+    //Adapted from https://www.babylonjs-playground.com/#FFVJW9#0
     // GUI
     var plane = BABYLON.Mesh.CreatePlane("plane", 2);
     plane.position.y = 5;
